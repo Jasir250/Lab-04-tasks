@@ -4,7 +4,7 @@ int main() {
     int num_1, num_2;
     char operation;
 
-    printf("Welcome to the calculator program!");
+    printf("Welcome to the calculator program!\n");
 
     printf("Enter your first number:\n");
     scanf("%d", &num_1);
@@ -40,4 +40,5 @@ int main() {
     }
 
     return 0;
+
 }
