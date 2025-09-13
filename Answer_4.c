@@ -13,5 +13,6 @@ int main() {
     }else{
         printf("Loan not approved");
     }
-
+    
+    return 0;
 }
