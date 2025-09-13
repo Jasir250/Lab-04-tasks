@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int bill_amount;
-    int final_amount;
-
+    
+    float bill_amount;
 
     printf("Enter the bill amount\n");
-    scanf("%d", &bill_amount);
+    scanf("%f", &bill_amount);
 
     if (bill_amount > 5000) {
-        final_amount = bill_amount * 0.9 ;
+        bill_amount = bill_amount * 0.9;
+         printf("The final amount is: %.2f \nYou got a 10%% discount!  ", bill_amount);
     }else{
-        final_amount = bill_amount ;
+        printf("The final amount is: %.2f", bill_amount);
     }
 
-    printf("The final amount is: %d", final_amount);
     return 0;
 }
