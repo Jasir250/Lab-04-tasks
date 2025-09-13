@@ -11,4 +11,6 @@ int main() {
     }else{
         printf("Access denied");
     }
+
+    return 0;
 }
