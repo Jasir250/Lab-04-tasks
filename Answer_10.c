@@ -15,4 +15,5 @@ int main() {
         printf("ERROR. Withdrawl amount must be multiple of 500 and should be less than the balance");
     }
 
+    return 0;
 }
